@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thelarion.gimara_soundboard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="GiMaRa SB"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".jonas_page"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".nik_page"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".marvin_page"
+            android:label="@string/title_activity_marvin_page"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".maurice_page"
+            android:label="@string/title_activity_maurice_page"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".lucas_page"
+            android:label="@string/title_activity_lucas_page"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".passi_page"
+            android:label="@string/title_activity_passi_page"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".zweitemain_page"
+            android:label="@string/title_activity_zweitemain_page"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".inga_page"
+            android:label="@string/title_activity_inga_page"
+            android:parentActivityName=".zweitemain_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".marcel_page"
+            android:label="@string/title_activity_marcel_page"
+            android:parentActivityName="zweitemain_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".joern_page"
+            android:label="@string/title_activity_joern_page"
+            android:parentActivityName="zweitemain_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".christopf_page"
+            android:label="@string/title_activity_christopf_page"
+            android:parentActivityName="zweitemain_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".timd_page"
+            android:label="@string/title_activity_timd_page"
+            android:parentActivityName="zweitemain_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".oemer_page"
+            android:label="@string/title_activity_oemer_page"
+            android:parentActivityName="zweitemain_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

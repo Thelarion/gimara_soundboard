@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">gimara_soundboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_jonas_page">jonas_page</string>
+    <string name="title_activity_nik_page">nik_page</string>
+    <string name="title_activity_marvin_page">marvin_page</string>
+    <string name="title_activity_maurice_page">maurice_page</string>
+    <string name="title_activity_lucas_page">lucas_page</string>
+    <string name="title_activity_passi_page">passi_page</string>
+    <string name="title_activity_zweitemain_page">zweitemain_page</string>
+    <string name="title_activity_inga_page">inga_page</string>
+    <string name="title_activity_marcel_page">marcel_page</string>
+    <string name="title_activity_joern_page">joern_page</string>
+    <string name="title_activity_christopf_page">christopf_page</string>
+    <string name="title_activity_timd_page">timd_page</string>
+    <string name="title_activity_oemer_page">oemer_page</string>
+</resources>
